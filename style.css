@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav start */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; 
+    background-color: rgb(255, 145, 0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {            
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: yellowgreen;
+}
+/*Nav end*/
+
+
+body {
+    background: url("bg.jpg") no-repeat fixed;
+}
+.first-div {
+    padding: 20px;
+    background-image: url(slide02.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+}
+.md {
+    margin-top: 200px;
+}
+.white {
+    color: white;
+    font-size: 20px;
+}
+.cadr {
+    padding: 60px 70px;
+    background-color: #F2F2F2;
+}
+.card1, .card2 {
+    padding-right: 95px;
+    width: 500px;
+    border: 3px solid transparent;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.cont {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+.cadr .card1 div h4, .cadr .card1 div h2, .cadr .card2 div h4, .cadr .card2 div h2 {
+    text-align: center;
+}
+.sub {
+    letter-spacing: 5px;
+    color: gray;
+}
+.cadr p {
+    color: gray;
+    text-align: justify;
+}
+.card-hr {
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.cont .but {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(228, 220, 220);
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    outline: gray;
+    margin-top: 20px;
+    background-color: white;
+}
+.cont .but:hover {
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+/* card-after start */
+.card-after {
+    text-align: center;
+    color: white;
+    padding: 80px;
+}
+/* card-after end */
+.galary {
+    background-color: #F2F2F2;
+    padding: 60px 70px;
+}
+.card-hrr {
+    width: 300px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.gp {
+    margin: 20px;
+}
+.gp img {
+    border: 13px solid white;
+    margin: 15px;
+}
+/* footer start */
+.footer {
+    padding: 100px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+.fb {
+    text-decoration: none;
+    color: rgb(60, 255, 0);
+    font-size: 30px;
+}
+.fb:hover {
+    text-shadow: 5px 5px 5px tomato;
+}
+/* footer end */
+@media (max-width: 1024px) {
+    .med {
+        display: none;
+    }
+    .cadr, .card1, .card2 {
+        margin: 0 auto;
+        padding: 5px 0px;
+    }
+    .galary, .gp {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
